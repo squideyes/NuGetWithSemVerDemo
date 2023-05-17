@@ -3,11 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiscHelpers", "MiscHelpers\MiscHelpers.csproj", "{BF5F44B0-09C7-46D9-A1A1-C25F2546FDDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiscHelpers", "MiscHelpers\MiscHelpers.csproj", "{BF5F44B0-09C7-46D9-A1A1-C25F2546FDDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{A2785383-46A6-46B2-B03E-A60C398524FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{A2785383-46A6-46B2-B03E-A60C398524FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{64A15F1A-8ECE-4E06-9F1B-25A054F23C12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{64A15F1A-8ECE-4E06-9F1B-25A054F23C12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{77C45E2F-4BEE-4BB7-8D3B-C49447B3EA01}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MiscCode", "MiscCode", "{DE9B21DF-4496-4CDF-B4F2-5C5EC88DF14E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{332E0108-2575-4A1D-96B8-921ED1959BDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +39,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF5F44B0-09C7-46D9-A1A1-C25F2546FDDE} = {332E0108-2575-4A1D-96B8-921ED1959BDE}
+		{A2785383-46A6-46B2-B03E-A60C398524FA} = {DE9B21DF-4496-4CDF-B4F2-5C5EC88DF14E}
+		{64A15F1A-8ECE-4E06-9F1B-25A054F23C12} = {DE9B21DF-4496-4CDF-B4F2-5C5EC88DF14E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C0B05008-B863-43FC-A54C-1A6998E6BCE6}
